@@ -1,3 +1,4 @@
+//Simple calculator
 #include <stdio.h>
 int main() 
 {
@@ -35,6 +36,7 @@ int main()
     return 0;
 } 
 
+//Divisibilty checking
 #include <stdio.h>
 int main() 
 {
@@ -52,6 +54,20 @@ int main()
     } 
     else {
         printf("The number is not divisible by either 3 or 5 \n", num);
+    }
+    return 0;
+}
+
+//Printing roll_nos
+#include <stdio.h>
+int main() 
+{
+    int roll_no , num;
+    printf("Enter a roll_no : ");
+    scanf("%d" , &roll_no);
+    for(num = 1 ; num <= roll_no ; num ++ )
+    {
+        printf("The given roll_no is : %d \n" , num);
     }
     return 0;
 }
