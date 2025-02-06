@@ -1,3 +1,4 @@
+// To find ASCII value of a character
 #include <stdio.h>
 int main() {
     char ch;
@@ -7,6 +8,7 @@ int main() {
     return 0;
 }
 
+//To print name
 #include <stdio.h>
 int main() {
     printf("HEMALATHA");
@@ -21,6 +23,7 @@ int main() {
     return 0;
 }
 
+//To multiply two float numbers
 #include <stdio.h>
 int main() {
     float a, b;
